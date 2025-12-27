@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #dcf4e6;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrapbook {
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+
+
+.polaroid {
+  background: white;
+  padding: 15px 15px 35px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.2);
+  transform: rotate(-2deg);
+  text-align: center;
+}
+
+.polaroid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.caption {
+  margin-top: 10px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+
+
+.note {
+  background: #fff7b0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px rgba(0,0,0,0.15);
+  transform: rotate(2deg);
+}
+
+.note h2 {
+  margin-bottom: 10px;
+}
+
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 14px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.hobbies ul {
+  list-style: none;
+}
+
+.hobbies li {
+  margin-bottom: 6px;
+}
+
+
+.quote {
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  text-align: center;
+  background: #e6f0ff;
+  transform: rotate(-1.5deg);
+}
